@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 /* ==========header start========== */
-.header-main{
+.header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,38 +14,46 @@
     border-bottom: 1px solid #dddd;
     margin-bottom: 20px;
 }
-.header-main .logo h2{
+
+.header-main .logo h2 {
     font-size: 20px;
     font-weight: 700;
 }
-.header-main .logo h2 span{
+
+.header-main .logo h2 span {
     color: #f00808;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     margin-right: 50px;
     font-weight: 700;
     color: #242424;
 }
-.header-right{
+
+.header-right {
     display: flex;
     align-items: center;
 }
-.header-right-left small{
+
+.header-right-left small {
     font-weight: 530;
     font-size: 10px;
     color: #8a8787;
 }
-.header-right-left{
+
+.header-right-left {
     margin-right: 30px;
 }
-.header-right-button button{
+
+.header-right-button button {
     padding: 9px 11px;
     border: none;
     font-weight: bold;
     font-size: 12px;
 }
-.header-right-button{
+
+.header-right-button {
     border: 1px solid #cfcfcf;
     border-radius: 4px;
     background: #fff;
@@ -53,57 +61,68 @@
 
 
 /* ===============main============== */
-.main-container-left{
+.main-container-left {
     margin-right: 50px;
 }
-.main-container{
+
+.main-container {
     display: flex;
     margin: 20px 70px 30px 70px;
 }
-.main-container-left{
+
+.main-container-left {
     width: 370px;
     border: 1px solid #f1f1f1;
     padding: 0 0 20px 0;
 }
-.Filters{
+
+.Filters {
     padding: 18px 100px 18px 16px;
     border-bottom: 1px solid #f1f1f1;
     margin-bottom: 18px;
 }
-.Filters h4{
+
+.Filters h4 {
     color: #8a8787;
     font-weight: 500;
 }
-.weddingz{
+
+.weddingz {
     padding: 0 100px 18px 16px;
 }
-.weddingz h4{
+
+.weddingz h4 {
     margin-bottom: 10px;
     color: #404040;
 }
-.weddingz h6{
+
+.weddingz h6 {
     color: #ababab;
     font-weight: 500;
 }
 
-hr.one{
+hr.one {
     border: 1px solid #f1f1f1;
     margin: 10px 15px 18px 15px;
     outline: 0;
 }
-.Budget{
+
+.Budget {
     padding: 0 16px 18px 16px;
 }
-.Budget h5{
+
+.Budget h5 {
     margin-bottom: 3px;
     color: #242424;
 }
-.Budget small{
+
+.Budget small {
     font-weight: 600;
     font-size: 11px;
     color: #8a8787;
 }
-.Below{
+
+.Below {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,101 +130,121 @@ hr.one{
     font-size: 13px;
     font-weight: 600;
 }
-.Below span{
+
+.Below span {
     color: #f00808;
     font-size: 11px;
     font-weight: 600;
 }
-.Below label{
+
+.Below label {
     font-size: 11px;
     font-weight: 600;
     color: #ababab;
     line-height: 20px;
 }
-.venue{
+
+.venue {
     padding: 0 16px 18px 16px;
 }
-.Show{
+
+.Show {
     margin-top: 15px;
 }
-.Show h6{
+
+.Show h6 {
     color: #f00808;
 }
-.wedding-theme{
+
+.wedding-theme {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 /* ============main-container-right start=======*/
-.main-container-right{
+.main-container-right {
     width: 70%;
 }
-.main-container-right .Home h5{
-    color:  #8a8787;
+
+.main-container-right .Home h5 {
+    color: #8a8787;
     font-weight: 600;
     margin-bottom: 32px;
 
 }
-.option-right{
+
+.option-right {
     display: flex;
     align-items: center;
- 
+
 }
-.option-right h5{
+
+.option-right h5 {
     color: #ababab;
     margin-right: 10px;
     font-weight: 500;
 }
-.option-right-button button{
+
+.option-right-button button {
     padding: 7px 8px;
     background: #fff;
     font-weight: 500;
     outline: none;
     border: none;
 }
-.option-right-button{
+
+.option-right-button {
     border: 1px solid #d4d4d4;
     border-radius: 3px;
 }
-.options{
+
+.options {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
-.option-left h4{
+
+.option-left h4 {
     color: #242424;
     line-height: 33px;
 }
-.option-left small{
+
+.option-left small {
     font-size: 12px;
     font-weight: 450;
     color: #ababab;
 }
 
-.right-img-left-img img{
+.right-img-left-img img {
     width: 390px;
     border-radius: 5px;
     object-fit: contain;
 }
-.la-cabana{
+
+.la-cabana {
     display: flex;
     justify-content: space-between;
 }
-hr.two{
+
+hr.two {
     border: 1px dashed #f1f1f1;
     margin: 15px 0 15px 0;
     outline: 0;
 }
-.la-cobano-small{
+
+.la-cobano-small {
     color: #ababab;
     font-weight: 490;
 }
-.Excellent{
+
+.Excellent {
     display: flex;
     align-items: center;
 }
-.Excellent a{
+
+.Excellent a {
     text-decoration: none;
     margin-right: 10px;
     font-size: 11px;
@@ -213,7 +252,8 @@ hr.two{
     color: #ababab;
     margin-top: 8px;
 }
-.Excellent button{
+
+.Excellent button {
     font-size: 10px;
     padding: 2px 5px;
     background: #039d03;
@@ -222,34 +262,42 @@ hr.two{
     border-radius: 2px;
     font-weight: bold;
 }
-.person p{
+
+.person p {
     font-size: 11px;
     letter-spacing: 1px;
     color: #8a8787;
     font-weight: 500;
     line-height: 23px;
 }
-.person p span{
+
+.person p span {
     color: #242424;
     font-weight: 500;
 }
-.person p .wifi{
+
+.person p .wifi {
     color: #5757e9;
 }
-.person p .profile{
+
+.person p .profile {
     color: #f00808;
 }
-.tree{
+
+.tree {
     border: 1px solid #f1f1f1;
     margin: 10px 0 18px 0;
     outline: 0;
 }
-.right-img-right{
+
+.right-img-right {
     margin-left: 20px;
 }
-.main-container-right-img{
+
+.main-container-right-img {
     display: flex;
 }
-.main-container-right-img-button{
+
+.main-container-right-img-button {
     display: flex;
 }
